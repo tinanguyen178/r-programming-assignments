@@ -1,0 +1,10 @@
+data(iris)
+
+head(iris)
+str(iris)
+
+hist(iris$Sepal.Length,
+     main = "Distribution of Iris Sepal Length",
+     xlab = "Sepal Length",
+     ylab = "Frequency",
+     col = "pink")
